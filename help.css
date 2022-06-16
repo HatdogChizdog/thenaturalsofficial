@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    background-color: rgb(240, 232, 224);
+
+}
+.navigationbar{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type:none;
+    margin-right: 120px;
+}
+nav ul li{
+    display:inline-block;
+    margin: 35px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul li a{
+    text-decoration: none;
+    color:gray;
+}
+nav ul li a:hover{
+    color: red;
+}
+.searchbar{
+    width: 20%;
+    max-width: 800%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(68, 64, 64);
+    color: aliceblue;
+}
+
+.searchbar::placeholder{
+    color: rgb(255, 255, 255);
+}
+.logo{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.container{
+    margin-top: 100px;
+    padding-top: 30px;
+}
+.top-container h1{
+    text-align: center;
+    font-size: 80px;
+}
+.top-container p{
+    text-align: center;
+    font-size: 20px;
+}
+.bottom-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 50%;
+    margin: 30px;
+    padding: 50px;
+}
+.box{
+    position: relative;
+    flex-basis: 50%;
+    
+}
+.box form{
+    color: white;
+    padding:30px;
+    width: 400px;
+    background-color: rgb(77, 73, 73);
+    border-radius: 10px;
+    margin-left: 200px;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.forms input{
+    padding: 8px;
+}
+#message{
+    padding: 10px;
+}
+.send-emailbtn{
+    background-color: red;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.send-emailbtn:active{
+    background-color: rgb(187, 62, 62);
+}
+.submitbtn{
+    text-align: center;
+}

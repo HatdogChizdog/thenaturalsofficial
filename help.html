@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<head>
+    <title>The Naturals - HELP</title>
+    <link rel="stylesheet" href="help.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- NAVIGATION BAR HEADER -->
+    <div class="navigationbar">
+        <div class="logo">
+            <img src="homeImages/icon.png" width = "360" height = "80">
+        </div>
+            <input type="text" placeholder="Search" class="searchbar">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="help.html" style="color: red">HELP</a></li>
+                <li><a href="cart.html">CART</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+            </ul>
+        </nav>
+    </div>
+
+<!---HELP CONTENT-->
+    <div class="container">
+        <div class="top-container">
+            <h1>GET IN TOUCH</h1>
+            <p> Email us with any questions and inquiries or call us at 0912345678.</p>
+            <p>We'll do everything we can do to make you shopping experience fun.</p>
+        </div>
+        <div class="bottom-container">
+            <div class="box">
+                <form>
+                    <div class="forms">
+                        <label for="name">NAME</label>
+                    <input type="text" name="name" id="name" placeholder="Juan Dela Cruz" required>
+                    </div>
+                    <div class="forms">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" placeholder="juandelacruz@gmail.com" required> 
+                    </div>
+                    <div class="forms">
+                        <label for="contact">CONTACT NUMBER</label>
+                        <input type="tel" name="contact" id="contact" placeholder="+63912345678" required>
+                    </div>
+                    <div class="submitbtn">
+                        <button type="submit" class="send-emailbtn">SEND EMAIL</button>
+                    </div>
+                </form>
+            </div>
+            <div class="box">
+                <div class="forms">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" cols="30" rows="20" placeholder="Type your message here"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

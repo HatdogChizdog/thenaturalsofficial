@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+html{
+    scroll-behavior: smooth;
+    background-color: rgb(240, 232, 224);
+}
+
+/*--- HEADER ---*/
+
+.navigationbar{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    top: 0;
+    width: 100%;
+      
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type:none;
+    margin-right: 120px;
+}
+nav ul li{
+    display:inline-block;
+    margin: 35px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul li a{
+    text-decoration: none;
+    color:gray;
+}
+nav ul li a:hover{
+    color: red;
+}
+.searchbar{
+    width: 20%;
+    max-width: 800%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(68, 64, 64);
+    color: aliceblue;
+}
+::placeholder{
+    color: white;
+}
+.logo{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+
+.container{
+    margin:auto;
+    padding: 50px;
+    justify-content: space-around;
+}
+.col1-title{
+    margin:  10px;
+    padding-bottom: 10px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.col1-user-info{
+    flex-basis: 60%;
+    background-color: rgb(76, 71, 71);
+    padding: 20px;
+}
+.col2-user-purchases{
+    flex-basis: 30%;
+}
+.col1-box form{
+    color: white;
+    padding:30px;
+}
+
+.info{
+    padding: 10px;
+}
+.info label{
+    display: flex;
+    flex-direction: column;
+}
+.info input{
+    padding: 10px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.info input::placeholder{
+    color: gray;
+}
+.col2-user-purchases{
+    background-color: white;
+    margin-bottom: 100px;
+}
+.col2-box{
+    padding: 40px;
+}
+.col2-box .title{
+    padding: 15px;
+}
+.col2-box .title a {
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+
+.col2-user-purchases .options{
+    padding: 20px;
+}
+.options a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-weight: 800;
+}
+.options a:hover{
+    color: red;
+}
+.options a:active{
+    color: rgb(0, 0, 0);
+}
+.login-register{
+    text-align: right;
+}
+.title a:hover{
+    color: red;
+}
+.title a:active{
+    color: black;
+}
+.login-register{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 5px;
+}
+.login-register a{
+    text-decoration: none;
+    color: white;
+}
+.login-register a:hover{
+    color: red;
+}
+.login-register a:active{
+    color: black;
+}

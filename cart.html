@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<head>
+    <title>The Naturals - cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- NAVIGATION BAR HEADER -->
+    <div class="navigationbar">
+        <div class="logo">
+            <img src="homeImages/icon.png" width = "360" height = "80">
+        </div>
+            <input type="text" placeholder="Search" class="searchbar">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="help.html">HELP</a></li>
+                <li><a href="cart.html" style="color: red">CART</a></li>
+                <li><a href="profile.html">PROFILE</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="col-1">
+            <h1>Your Cart</h1>
+    <div class="cartpage">
+        <table>
+            <tr>
+                <th>Product Details</th>
+                <th>Qty</th>
+                <th>Price</th>
+                <th>Total Price</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/productmen1.png" height="300px" width="320px">
+                        <div class="product-info">
+                            <p><b>Army Polo Shirt For Men</b></p>
+                            <small>MEN</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1" min="1" max="99"></td>
+                <td>Php. 399.00</td>
+                <td>Php. 399.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/productwomen3.png" height="300px" width="320px">
+                        <div class="product-info">
+                            <p><b>Cardigan for Women</b></p>
+                            <small>WOMEN</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1" min="1" max="99"></td>
+                <td>Php. 600.00</td>
+                <td>Php. 600.00</td>
+            </tr>
+        </table>
+    </div>
+        </div>
+        <div class="col-2">
+            <div class="ord-summary">
+                <div class="row">
+                <h1>Order Summary</h1>
+                <table>
+                    <tr>
+                        <td><h3>TOTAL PRICE: </h3> </td>
+                        <td><p>Php 999.00</p></td>
+                    </tr>
+                </table>
+                </div>
+                <div class="row">
+                <label for="shipping">SHIPPING</label>
+                <select name="shipping" id="shipping"> 
+                    <option> Standard Delivery - Php 50.00</option>
+                    <option> LBC - Php 50.00 </option>
+                    <option> NinjaVan - Php 50.00</option>
+                </select>
+                </div>
+                <div class="row">
+                <label for="voucher">VOUCHER CODE</label>
+                <input type="text" name="voucher" id="voucher" placeholder="Enter your code">
+                <div class="code">
+                    <div class="send-code">
+                        <button type="submit" class="submitbtn">APPLY</button>
+                    </div>
+                </div>
+                    <a href="" style="text-align: right;">MODE OF PAYMENT</a>
+                </div>
+                <div class="row">
+                    <table>
+                        <tr>
+                            <td><h3>TOTAL COST: </h3> </td>
+                            <td><p>Php 1,049.00</p></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="placeorder">
+                    <button type="submit" class="orderbtn">PLACE ORDER</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+ 
+</body>
+</html>

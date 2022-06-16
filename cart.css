@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    
+}
+html{
+    scroll-behavior: smooth;
+    background-color: rgb(240, 232, 224);
+
+}
+.navigationbar{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: white;
+    top: 0;
+    width: 100%;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type:none;
+    margin-right: 120px;
+}
+nav ul li{
+    display:inline-block;
+    margin: 35px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+nav ul li a{
+    text-decoration: none;
+    color:gray;
+}
+nav ul li a:hover{
+    color: red;
+}
+.searchbar{
+    width: 20%;
+    max-width: 800%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgb(68, 64, 64);
+    color: aliceblue;
+}
+
+.searchbar::placeholder{
+    color: rgb(255, 255, 255);
+}
+.logo{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.container{
+    margin:auto;
+    padding: 50px;
+    display: flex;
+}
+.col-1{
+   flex-basis: 70%;
+}
+.col-2{
+    flex-basis: 30%;
+}
+.cartpage{
+    margin: 50px;
+}
+
+.col-1 table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+    padding-bottom:  20px;
+    color: red;
+}
+.cartpage td img{
+    width: 150px;
+    height: 150px;
+}
+td a{
+    color: red;
+}
+
+.cart-info{
+    display:flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.cartpage input{
+    padding: 5px;
+}
+.product-info{
+    padding: 10px ;
+}
+.col-2 .ord-summary{
+    background-color: white;
+    padding: 50px
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.row td p{
+    padding-top: 30px;
+}
+.row select{
+    padding: 10px;
+}
+.row input{
+    padding: 10px;
+}
+.submitbtn{
+    background-color: red;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    border-width: 1px;
+    border: none;
+}
+.submitbtn:active{
+    background-color: rgb(173, 42, 42);
+}
+.code{
+    display: flex;
+    align-items: right;
+}
+.row a{
+    color: gray;
+    text-decoration: underline;
+}
+.placeorder{
+    display: flex;
+    justify-content: center;
+
+}
+.orderbtn{
+    background-color: rgb(93, 93, 253);
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 5px;
+    color: white;
+    border-width: 1px;
+    font-weight: bold;
+}
+.orderbtn:active{
+    background-color: rgb(127, 127, 206);
+}
